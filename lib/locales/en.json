@@ -1,0 +1,9 @@
+{
+  "hero.title": "Atucha II \u2014 Production 3D Guided Tour",
+  "hero.subtitle": "Explore exterior, Main Control Room, and reactor core. Guided Tour (TTS + subtitles) or Free Explore.",
+  "@/components/AtuchaCore": "@/components/AtuchaCore",
+  "@/components/AtuchaControlRoom": "@/components/AtuchaControlRoom",
+  "@/components/AtuchaExterior": "@/components/AtuchaExterior",
+  "r3f-perf": "r3f-perf",
+  "../../components/ExteriorPreview": "../../components/ExteriorPreview"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "atucha-ii-production-3d-tour",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.12.0"
+  },
+  "packageManager": "pnpm@10.4.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "node scripts/fetch-workers.mjs && node scripts/version-lock-report.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test",
+    "preinstall": "node -e \"console.log('Node', process.version)\" || true"
+  },
+  "dependencies": {
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "tailwindcss": "4.1.12",
+    "three": "0.179.1",
+    "@react-three/fiber": "9.3.0",
+    "@react-three/drei": "10.7.4",
+    "three-stdlib": "2.36.0",
+    "zustand": "4.5.7",
+    "lucide-react": "0.542.0",
+    "r3f-perf": "7.2.3",
+    "postprocessing": "6.37.7"
+  },
+  "devDependencies": {
+    "typescript": "5.9.2",
+    "@types/three": "0.179.0",
+    "@types/node": "22.7.8",
+    "@playwright/test": "1.55.0"
+  }
+}

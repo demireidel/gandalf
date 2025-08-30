@@ -1,0 +1,17 @@
+sha256 of critical files: eca27794a98792e167077415eac6dde6de7b86d3c2a9e7935fb9793c4f0b8d8f
+Present:
+package.json
+next.config.ts
+vercel.json
+pnpm-lock.yaml
+app/layout.tsx
+components/SceneRoot.tsx
+components/CameraRig.tsx
+components/Hotspot.tsx
+components/AtuchaExterior.tsx
+components/AtuchaControlRoom.tsx
+components/AtuchaCore.tsx
+lib/cameraStore.ts
+lib/loaders.ts
+research/sources.md
+scripts/fetch-workers.mjs

@@ -1,0 +1,79 @@
+./
+  PATCH_SUMMARY.md
+  README.md
+  VERSIONS.md
+  next-env.d.ts
+  next.config.ts
+  package.json
+  playwright.config.ts
+  pnpm-lock.yaml
+  tailwind.config.ts
+  tsconfig.json
+  vercel.json
+app/
+  globals.css
+  layout.tsx
+  app/(site)/
+    page.tsx
+  app/api/
+    app/api/models/
+      route.ts
+    app/api/tts/
+      route.ts
+  app/explore/
+    page.tsx
+  app/settings/
+    page.tsx
+  app/tour/
+    page.tsx
+assets/
+  assets/glb/
+    core_lod0.glb
+    core_lod1.glb
+    core_lod2.glb
+    exterior_low.glb
+    mcr_lod0.glb
+    mcr_lod1.glb
+    mcr_lod2.glb
+components/
+  AtuchaControlRoom.tsx
+  AtuchaCore.tsx
+  AtuchaExterior.tsx
+  CameraRig.tsx
+  CanvasShell.tsx
+  ExteriorPreview.tsx
+  Hotspot.tsx
+  LangToggle.tsx
+  PerfToggle.tsx
+  SceneRoot.tsx
+  SettingsSheet.tsx
+  TourHUD.tsx
+e2e/
+  smoke.spec.ts
+lib/
+  cameraStore.ts
+  controls.ts
+  hotspots.ts
+  i18n.ts
+  loaders.ts
+  lod.ts
+  tour.ts
+  tts.ts
+  lib/locales/
+    en.json
+    es.json
+research/
+  sources.md
+scripts/
+  fetch-workers.mjs
+  version-lock-report.mjs
+public/
+  public/assets/
+    public/assets/glb/
+      core_lod0.glb
+      core_lod1.glb
+      core_lod2.glb
+      exterior_low.glb
+      mcr_lod0.glb
+      mcr_lod1.glb
+      mcr_lod2.glb

@@ -1,0 +1,8 @@
+{
+  "framework": "nextjs",
+  "installCommand": "echo 'Node:' $(node -v) && echo 'NPM:' $(npm -v) && corepack enable && corepack prepare pnpm@10.4.0 --activate && echo 'PNPM:' $(pnpm -v) && pnpm i --no-frozen-lockfile",
+  "buildCommand": "echo 'Using Node:' $(node -v) 'PNPM:' $(pnpm -v) && pnpm build",
+  "github": {
+    "enabled": true
+  }
+}
